@@ -4,11 +4,13 @@
     "manifest_version" : 2,
     "description" : "this is a extension which helps you to find the meaning of a word",
     "permissions": ["activeTab"],
-    "icons":{
-        "16":"icon.jpg"
-        },
     "browser_action":{
         "default_popup":"index.html"
+    },
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "icon128.png" 
     },
     "content_scripts":[
         {
