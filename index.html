@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dictionary</title>
+    <script src='index.js'></script>
+</head>
+<body>
+    <form autocomplete="on">
+        <div>
+            <p class="header">Enter a word to get to know more about it!!</p>
+            <input id="wrd" class="inp"  type="text" placeholder="Enter Your Word" />
+        </div>
+    </form>
+    <div>
+        <button class="btn" id="myButton" >Get meaning</button>
+        <script src="index.js"></script>
+        <p id=res1 class="resu">Meaning will be displayed here</p><br>
+        <p id="res2" class="resu" >Other Information:</p><br>
+        <p class="resu">note:to get pronounciation click the link 😉 </p>
+    </div>
+</body>
+</html>
+
+<style>
+ body{
+     height: 400px;
+     width: 450px;
+     background-image: url("data:image/jpeg;base64,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");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+  .header{
+      align-content: center;
+      margin: 30px;
+      font-size: 15px;
+      color: rgb(211, 255, 210);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ .inp{
+     margin: 10px;
+     padding: 15px;
+     border: 2px solid black;
+     border-radius: 25px;
+     font-size: 20px;
+     font-family: italic;
+ }
+ .btn{
+     margin: 10px;
+     padding: 10px;
+     border: 2px solid black;
+     border-radius: 15px;
+     font-size: 15px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .resu{
+     margin: 5px;
+     font-size: 15px;
+     font-family: cursive;
+     color: white;
+ }
+</style>
